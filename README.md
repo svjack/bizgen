@@ -31,6 +31,8 @@
 
 ### 1. Create Conda Environment
 ```bash
+sudo apt-get update && sudo apt-get install git-lfs ffmpeg cbm
+
 conda create -n bizgen python=3.10 -y
 conda activate bizgen
 pip install ipykernel
@@ -42,6 +44,10 @@ python -m ipykernel install --user --name bizgen --display-name "bizgen"
 git clone https://github.com/svjack/bizgen
 cd bizgen
 pip install -r requirements.txt
+pip install "numpy<2"
+
+git clone https://huggingface.co/PYY2001/BizGen
+mv BizGen checkpoints
 ```
 
 ### 3. Login to Hugging Face
