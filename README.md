@@ -33,6 +33,8 @@
 ```bash
 conda create -n bizgen python=3.10 -y
 conda activate bizgen
+pip install ipykernel
+python -m ipykernel install --user --name bizgen --display-name "bizgen"
 ```
 
 ### 2. Install Dependencies 
