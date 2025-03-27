@@ -39,7 +39,7 @@ python -m ipykernel install --user --name bizgen --display-name "bizgen"
 
 ### 2. Install Dependencies 
 ```bash
-git clone
+git clone https://github.com/svjack/bizgen
 cd bizgen
 pip install -r requirements.txt
 ```
