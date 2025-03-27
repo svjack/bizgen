@@ -48,6 +48,8 @@ pip install "numpy<2"
 
 git clone https://huggingface.co/PYY2001/BizGen
 mv BizGen checkpoints
+
+git clone https://huggingface.co/madebyollin/sdxl-vae-fp16-fix
 ```
 
 ### 3. Login to Hugging Face
