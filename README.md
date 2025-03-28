@@ -61,6 +61,8 @@ huggingface-cli login
 Use inference.py to simply have a try:
 ```
 python inference.py
+
+python inference.py --sample_list zh_cat.json
 ```
 
 ## Testing BizGen
